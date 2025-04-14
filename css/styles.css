@@ -20,6 +20,13 @@ body{
    padding-right: 156px;
    margin-left: auto;
    margin-right: auto;
+   background-color: rgb(255, 255, 255);
+}
+
+.container-main-image{
+   max-width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 h1,
@@ -38,38 +45,89 @@ ol {
    margin-top: 0;
    margin-bottom: 0;
    padding-left: 0;
+   list-style-type: none;
 }
 
-ul {
-   list-style-type: none; 
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
 }
-.menu{
+
+/* **** Header **** */
+
+.header-tag{
    display: flex;
-   gap: 0px;
+}
+
+.logo {
+   font-size: 18px;
+   font-weight: 700;
+   letter-spacing: 0.03em;
+   line-height: 1.17;
+   color: #4d5ae5;
+   font-family: "Raleway", sans-serif;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 24px 0;
+}
+
+.logo-head {
+   color: #2e2f42;
 }
 
 .nav{
-display: flex;
-gap: 40px;
+   display: flex;
+   gap: 76px;
 }
 
-nav a{
+.nav-ul{
+display: flex;
+}
+
+.nav-ul li{
+padding: 24px 0px;
+}
+
+.nav-ul li:first{
+   padding-left: 76px;
+}
+
+.nav-a {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
    color: #2E2F42;
    text-decoration: none;
+   padding: 24px 20px;
 }
 
-nav a:hover {
-   color: #404BBF;
-   text-decoration: none;
+.nav-a:hover {
+   color: #404bbf;
 }
 
-nav a:active {
-   color: #404BBF;
-   text-decoration: underline;
+.nav-a:focus {
+   color: #404bbf;
 }
 
 .address {
    font-style: normal;
+}
+
+.address-lu{
+   display: flex;
+}
+
+.address-lu li{
+   padding: 24px 40px 24px 40px;
 }
 
 .address-a{
@@ -88,6 +146,8 @@ text-decoration: none;
    color: #404bbf;
 }
 
+/* **** Section 1: hero-image **** */
+
 .hero-h{
    font-size: 56px;
    font-weight: 700;
@@ -95,6 +155,10 @@ text-decoration: none;
    line-height: 1.07;
    color: #ffffff;
    text-align: center;
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   margin: auto; 
 }
 
 .cta-btn{
@@ -136,38 +200,7 @@ color: #434455;
 .hero-image{
    color: #FFF;
    background-color: #2E2F42;
-}
-
-.logo{
-   font-size: 18px;
-   font-weight: 700;
-   letter-spacing: 0.03em;
-   line-height: 1.17;
-   color: #4d5ae5;
-   font-family: "Raleway", sans-serif;
-   text-transform: uppercase;
-   text-decoration: none;
-}
-
-.logo-head{
-   color: #2e2f42;
-}
-
-.nav-a{
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #2E2F42;
-   text-decoration: none;
-}
-
-.nav-a:hover{
-   color: #404bbf;
-}
-
-.nav-a:focus{
-   color: #404bbf;
+   height: 600px;
 }
 
 .sec-team{
@@ -236,3 +269,4 @@ color: #434455;
    line-height: 1.5;
    letter-spacing: 0.02em;
 }
+
