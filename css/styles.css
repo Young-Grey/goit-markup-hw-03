@@ -66,16 +66,6 @@ ol {
    justify-content: space-between;
 }
 
-.container-header {
-   display: flex;
-   max-width: 1440px;
-   padding-left: 156px;
-   padding-right: 156px;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: rgb(255, 255, 255);
-}
-
 .logo {
    font-size: 18px;
    font-weight: 700;
@@ -170,26 +160,23 @@ ol {
    background-color: #2e2f42;
 }
 
-.hero-image .container{
-   flex-direction: column;
-   align-items: center;
-}
-
 .hero-h{
+   display: block;
    font-size: 56px;
    font-weight: 700;
    letter-spacing: 0.02em;
    line-height: 1.07;
    color: #ffffff;
    max-width: 496px;
-   margin-bottom: 48px;
+   margin: 0 auto 48px auto;
 }
 
 .cta-btn{
+   display: block;
+   margin: 0 auto;
    font-weight: 500;
    letter-spacing: 0.04em;
    cursor: pointer;
-   vertical-align: center;
    background-color: #4D5AE5;
    color: #ffffff;
    border-width: 0px;
@@ -217,14 +204,6 @@ ol {
 
 .features{
    padding: 120px 0;
-}
-
-.cont-features{
-   max-width: 1440px;
-   padding-left: 156px;
-   padding-right: 156px;
-   margin-left: auto;
-   margin-right: auto;
 }
 
 .features-list{
@@ -265,14 +244,6 @@ ol {
    padding: 120px 0;
 }
 
-.cont-team {
-   max-width: 1440px;
-   padding: 120px 156px;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: rgb(255, 255, 255);
-}
-
 .team-list{
    display: flex;
    justify-content: space-between;
@@ -301,7 +272,7 @@ ol {
 }
 
 .team-description{
-padding 32px 0;
+   padding: 32px 0;
 }
 
 .team-hh{
@@ -340,14 +311,6 @@ padding 32px 0;
 */
 .section-portfolio{
   padding: 120px 0;
-}
-
-.cont-folio{
-   max-width: 1440px;
-   padding-left: 156px;
-   padding-right: 156px;
-   margin-left: auto;
-   margin-right: auto;
 }
 
 .portfolio-hh {
@@ -420,19 +383,9 @@ padding 32px 0;
    padding: 100px 0;
    background-color: #2E2F42;
 }
-.cont-footer{
-   display: flex;
-   flex-direction: column;
-   justify-content:center;
-   align-items: left;
-   max-width: 1440px;
-   padding: 100px 156px;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: #2E2F42;
-}
+
 footer .logo{
-   padding-bottom: 16px;
+   margin-bottom: 16px;
 }
 
 .logo-link {
@@ -461,4 +414,3 @@ footer .logo{
    letter-spacing: 0.02em;
    max-width: 264px;
 }
-
