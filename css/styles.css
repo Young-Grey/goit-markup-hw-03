@@ -75,8 +75,6 @@ ol {
    font-family: "Raleway", sans-serif;
    text-transform: uppercase;
    text-decoration: none;
-   margin-right: 76px;
-   padding: 24px 0;
    display: inline-block;
 }
 
@@ -92,6 +90,7 @@ ol {
 .nav-ul{
    display: flex;
    gap: 40px;
+   margin-left: 76px;
 }
 
 .nav-ul li{
@@ -242,6 +241,7 @@ ol {
 
 .sec-team{
    padding: 120px 0;
+   background-color: #F4F4FD;
 }
 
 .team-list{
@@ -256,8 +256,6 @@ ol {
    flex-direction: column;
    align-items: center;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-   margin-right: 24px;
-   padding-bottom: 32px;
    border-radius: 0px 0px 4px 4px;
 }
 
@@ -283,10 +281,6 @@ ol {
    text-transform: capitalize;
    color: #2e2f42;
    margin-bottom: 72px;
-}
-
-.team-image{
-   margin-bottom: 32px;
 }
 
 .team-hhh{
